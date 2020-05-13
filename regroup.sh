@@ -5,6 +5,6 @@ for i in *.TPS ; do
     echo $i >> ../out/$i
     echo -e "\n" >> ../out/$i
 done
-
+#ici
 cd ../out
 cat *.TPS | sed '/^$/d' | tr ' ' ';' > ../alltps.csv
