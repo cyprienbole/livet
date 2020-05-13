@@ -1,3 +1,4 @@
+# en deux étapes
 cd wetransfer-daafab/
 for i in *.TPS ; do
     cat $i | grep -e , -e IMAGE | tr -d "\r" | tr "\n" ";"  > ../out/$i
